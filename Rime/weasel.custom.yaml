@@ -1,0 +1,10 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.0
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Wed May 15 10:08:10 2024"
+  rime_version: 1.11.2
+patch:
+  "style/color_scheme": dark_temple
+  # "switches/@0/reset": 1	# 1=預設英文輸入，0=中文
+  # "style/display_tray_icon": true  # 顯示托盤圖標  
