@@ -11,16 +11,15 @@ rmdir "%AppData%\Rime\opencc" /S /Q
 xcopy ".\Rime\*.*" /S "%AppData%\Rime\"
 
 ::重啟小狼毫輸入法
-::"C:\Program Files (x86)\Rime\weasel-0.16.0\WeaselDeployer.exe" /deploy
-IF EXIST "C:\Program Files\Rime\weasel-0.16.0\WeaselDeployer.exe" (
-    "C:\Program Files\Rime\weasel-0.16.0\WeaselDeployer.exe" /deploy
+IF EXIST "C:\Program Files\Rime\weasel-0.16.1\WeaselDeployer.exe" (
+    "C:\Program Files\Rime\weasel-0.16.1\WeaselDeployer.exe" /deploy
     echo 重啟小狼毫輸入法服務_64
 ) ELSE (
-    IF EXIST "C:\Program Files (x86)\Rime\weasel-0.16.0\WeaselDeployer.exe" (
-        "C:\Program Files (x86)\Rime\weasel-0.16.0\WeaselDeployer.exe" /deploy
+    IF EXIST "C:\Program Files (x86)\Rime\weasel-0.16.1\WeaselDeployer.exe" (
+        "C:\Program Files (x86)\Rime\weasel-0.16.1\WeaselDeployer.exe" /deploy
         echo 重啟小狼毫輸入法服務_32
     ) ELSE (
         echo 預設路徑無法找到小狼毫輸入法，請自行手動重啟服務。
     )
 )
-pause   
+pause
