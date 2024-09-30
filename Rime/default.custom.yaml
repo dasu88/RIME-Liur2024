@@ -1,8 +1,8 @@
 customization:
   distribution_code_name: Weasel
-  distribution_version: 0.16.1
+  distribution_version: 0.16.2
   generator: "Rime::SwitcherSettings"
-  modified_time: "Fri Jun  7 08:15:27 2024"
+  modified_time: "Mon Sep 30 08:07:10 2024"
   rime_version: 1.11.2
 patch:
   ascii_composer:
