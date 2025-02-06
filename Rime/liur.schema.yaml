@@ -11,8 +11,8 @@ schema:
   description: |
     蝦米-拼音-注音反查輸入法
   dependencies:
-    # - luna_pinyin
-    # - bopomofo_tw    
+    - luna_pinyin
+    - bopomofo_tw    
 
 switches:
   - name: ascii_mode
@@ -68,6 +68,8 @@ engine:
     - table_translator
     - script_translator@pinyin
     - script_translator@phonetic
+    
+    - lua_translator@date_translator
 
   filters:
     - simplifier
@@ -225,3 +227,4 @@ recognizer:
 #造詞引導
     liurqry: ";;[a-z']*'?$"
 # 讀音反查引導鍵
+    lua: "``[a-z0-9/:]*'?$"
