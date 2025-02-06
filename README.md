@@ -12,7 +12,6 @@
     5. 資料夾中有大量的 *custom.yaml 內容是空的，主要是用來解決日誌文件夾的警告log產生
     6. 因「';」鍵臨時切換注音會需要用到bopomofo_tw*.yaml，所以預設安裝時，建議需安裝注音輸入法。否則無法送出正確字元
 7. 其餘資訊就請參考 [README_S.md 原始說明](<https://blog.typeart.cc/rime-liur/guide/>)
-8. 參考版本[hftsai256 版本](https://github.com/hftsai256/rime-liur-lua)，加上rime.lua，增加擴充功能。
 
 # 安裝說明
 1. 請至 [Rime下載小狼毫](<https://github.com/rime/weasel>) , 以預設路徑安裝，至少應勾選「注音_臺灣」輸入法，用做嘸蝦米切換注音使用，其餘輸入法視需要安裝即可。
