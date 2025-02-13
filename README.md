@@ -21,5 +21,10 @@
 5. 如仍有問題，則重啟小狼毫算法服務。
 
 # 其他補充
-1. 在[這一篇PTT](<https://www.ptt.cc/bbs/Liu/M.1738989663.A.CFF.html >) 討論中，看到有人說「羂」用「fsou」這個字根打不出來，我試了一下也是如此。索性也就把它加到 liur.extended.dict.yaml ，如此可以直接打出此字。
-2. 關於日文輸入，雖然我較無此方面的需求，但我還是從 liur.extended.dict.yaml 中把相關註解拿掉讓它可以載入，使用方式為按下「Ctrl + /」切換為擴充字，再直接打日文發音即可，例：打「a」可以出「あ」字元。
+1. 在[這一篇PTT](<https://www.ptt.cc/bbs/Liu/M.1738989663.A.CFF.html >) 討論中，看到有人說「羂」用「fsou」這個字根打不出來，我試了一下也是如此。試了一下，該字存在於 liur_Japan.dict.yaml 中，於是把相關註解拿掉讓它可以載入日文相關字根，即可打出「羂」這個字，另外日文則直接打日文發音即可，例：打「a」可以出「あ」字元。
+2. 幾個重點檔案的用途：
+	1. liur_Trad.dict.yaml：嘸蝦米字根。
+	2. liur_TradExt.dict.yaml：嘸蝦米擴充字根。
+	3. liur.extended.dict.yaml：用來設定延伸table，例如日文字根就用它來載入，另外還可以自訂編詞，但「liu」對應「嘸蝦米」這三個字、與自動編碼，請直接參照該檔說明。
+	4. liur_customWords.dict.yaml：用來增加自訂字或符號。例如我將我常用的符號定義成 syb ，如此打 syb ，即可有常用符號選單供我上字。
+	5. liur_English.dict.yaml：常用英文字，可以直接打，並上字。

@@ -23,7 +23,7 @@ import_tables:
   - liur_TradExt
   - liur_customWords
   - liur_Japan
-  #上列加入自訂
+  # 如果想直接部份英文上字，將此註解拿掉
   # - liur_English
 ...
 #人工編碼詞，適合超長句子，或包含數字的詞
