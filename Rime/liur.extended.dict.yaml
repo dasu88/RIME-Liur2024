@@ -22,7 +22,9 @@ import_tables:
   - liur_Trad
   - liur_TradExt
   - liur_customWords
-  - liur_Japan
+  # 如果想載入日文字根，則此註解拿掉
+  # 但目前部份日文字已加至liur_Trad.dict.yaml，所以除非是需要那些漢字不然不需載入
+  # - liur_Japan
   # 如果想直接部份英文上字，將此註解拿掉
   # - liur_English
 ...
